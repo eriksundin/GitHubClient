@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="loginButton" destination="nY6-sL-8WP" id="3SW-8Y-7Ot"/>
+                <outlet property="loginIndicator" destination="BWF-Ez-Nys" id="pij-bA-emP"/>
+                <outlet property="view" destination="iN0-l3-epB" id="VyK-3G-yI9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="BWF-Ez-Nys">
+                    <rect key="frame" x="290" y="290" width="20" height="20"/>
+                </activityIndicatorView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Octocat" translatesAutoresizingMaskIntoConstraints="NO" id="dAZ-4z-RhZ">
+                    <rect key="frame" x="220" y="142" width="160" height="137"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nY6-sL-8WP">
+                    <rect key="frame" x="275" y="290" width="50" height="50"/>
+                    <state key="normal" image="Login">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="loginButtonPressed:" destination="-1" eventType="touchUpInside" id="NJI-Yu-ewl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="BWF-Ez-Nys" firstAttribute="centerX" secondItem="nY6-sL-8WP" secondAttribute="centerX" id="3ar-Zb-2ur"/>
+                <constraint firstItem="nY6-sL-8WP" firstAttribute="top" secondItem="dAZ-4z-RhZ" secondAttribute="bottom" constant="11" id="E3f-uB-KMO"/>
+                <constraint firstItem="BWF-Ez-Nys" firstAttribute="top" secondItem="nY6-sL-8WP" secondAttribute="top" id="Iaz-NU-Fxt"/>
+                <constraint firstItem="BWF-Ez-Nys" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="eJw-7Z-oJl"/>
+                <constraint firstItem="BWF-Ez-Nys" firstAttribute="centerX" secondItem="dAZ-4z-RhZ" secondAttribute="centerX" id="mGh-eV-4EY"/>
+                <constraint firstItem="nY6-sL-8WP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xG6-jY-jck"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Login" width="50" height="50"/>
+        <image name="Octocat" width="160" height="137"/>
+    </resources>
+</document>

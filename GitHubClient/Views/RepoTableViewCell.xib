@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" indentationWidth="10" id="KGk-i7-Jjw" customClass="RepoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Repo" translatesAutoresizingMaskIntoConstraints="NO" id="SgD-W0-drc">
+                        <rect key="frame" x="8" y="21" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="8Bf-6N-Zqx"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6U-FR-Yoy">
+                        <rect key="frame" x="38" y="21" width="241" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="A6U-FR-Yoy" firstAttribute="leading" secondItem="SgD-W0-drc" secondAttribute="trailing" constant="8" symbolic="YES" id="4oK-0I-iL1"/>
+                    <constraint firstItem="A6U-FR-Yoy" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="FgL-x9-xk9"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="SgD-W0-drc" secondAttribute="bottom" constant="12.5" id="Wh0-nT-NJS"/>
+                    <constraint firstItem="SgD-W0-drc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="13" id="YOY-bp-wv1"/>
+                    <constraint firstItem="SgD-W0-drc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="eSL-7n-AQ7"/>
+                    <constraint firstItem="A6U-FR-Yoy" firstAttribute="top" secondItem="SgD-W0-drc" secondAttribute="top" id="fKE-DL-uYS"/>
+                    <constraint firstItem="A6U-FR-Yoy" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="pMd-tJ-i4f"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="repoImageView" destination="SgD-W0-drc" id="6Br-fQ-qIP"/>
+                <outlet property="repoNameLabel" destination="A6U-FR-Yoy" id="JKf-2P-mQR"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Repo" width="50" height="50"/>
+    </resources>
+</document>

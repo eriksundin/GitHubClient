@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  GitHubClient
 //
-//  Created by Erik Sundin on 25/11/14.
+//  Created by Erik Sundin on 24/11/14.
 //  Copyright (c) 2014 Erik Sundin. All rights reserved.
 //
 
@@ -11,7 +11,6 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 
 @end
 

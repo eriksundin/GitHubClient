@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09B6004A3218A443CC923E7E /* libPods-GitHubClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3B85D5F69E6F4DB69B616C /* libPods-GitHubClient.a */; };
 		46B8E87E1A251151002710F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E87D1A251151002710F7 /* main.m */; };
-		46B8E8811A251151002710F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E8801A251151002710F7 /* AppDelegate.m */; };
-		46B8E8841A251151002710F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E8831A251151002710F7 /* ViewController.m */; };
-		46B8E8871A251151002710F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B8E8851A251151002710F7 /* Main.storyboard */; };
-		46B8E8891A251151002710F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B8E8881A251151002710F7 /* Images.xcassets */; };
-		46B8E88C1A251151002710F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B8E88A1A251151002710F7 /* LaunchScreen.xib */; };
-		46B8E8981A251151002710F7 /* GitHubClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E8971A251151002710F7 /* GitHubClientTests.m */; };
+		46B8E8BF1A2511EE002710F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E8A31A2511EE002710F7 /* AppDelegate.m */; };
+		46B8E8C01A2511EE002710F7 /* ReposViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E8A61A2511EE002710F7 /* ReposViewController.m */; };
+		46B8E8C11A2511EE002710F7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E8A81A2511EE002710F7 /* LoginViewController.m */; };
+		46B8E8C31A2511EE002710F7 /* GHRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E8AD1A2511EE002710F7 /* GHRepo.m */; };
+		46B8E8C41A2511EE002710F7 /* GHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E8AF1A2511EE002710F7 /* GHUser.m */; };
+		46B8E8C51A2511EE002710F7 /* GitHubAuthConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E8B21A2511EE002710F7 /* GitHubAuthConfig.m */; };
+		46B8E8C61A2511EE002710F7 /* GitHubOAuthFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E8B41A2511EE002710F7 /* GitHubOAuthFlow.m */; };
+		46B8E8C71A2511EE002710F7 /* GitHubService.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E8B61A2511EE002710F7 /* GitHubService.m */; };
+		46B8E8C81A2511EE002710F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B8E8B71A2511EE002710F7 /* Images.xcassets */; };
+		46B8E8CA1A2511EE002710F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B8E8BA1A2511EE002710F7 /* LaunchScreen.xib */; };
+		46B8E8CB1A2511EE002710F7 /* ReposViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B8E8BC1A2511EE002710F7 /* ReposViewController.xib */; };
+		46B8E8CC1A2511EE002710F7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B8E8BD1A2511EE002710F7 /* LoginViewController.xib */; };
+		46B8E8D61A2515BC002710F7 /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B8E8D51A2515BC002710F7 /* RepoTableViewCell.xib */; };
+		46B8E8D91A252A1D002710F7 /* RequestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E8D81A252A1D002710F7 /* RequestUtil.m */; };
+		46B8E8DE1A25DF52002710F7 /* RepoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B8E8DD1A25DF52002710F7 /* RepoViewController.xib */; };
+		46B8E8E11A25DF68002710F7 /* RepoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B8E8E01A25DF68002710F7 /* RepoViewController.m */; };
+		46D8F1CC1A261F89002867D2 /* GitHubServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D8F1CB1A261F89002867D2 /* GitHubServiceTests.m */; };
+		46D8F1CE1A262BD3002867D2 /* token_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 46D8F1CD1A262BD3002867D2 /* token_response.json */; };
+		46D8F1D41A263330002867D2 /* ProfileHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D8F1D11A263330002867D2 /* ProfileHeaderView.m */; };
+		46D8F1D51A263330002867D2 /* RepoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D8F1D31A263330002867D2 /* RepoTableViewCell.m */; };
+		54DAA0B9D68BEA9267EDC1EE /* libPods-GitHubClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BB200E9B682DA0463C4D6E /* libPods-GitHubClientTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +43,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11D048CC1A0D0AF356F742C1 /* Pods-GitHubClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubClient/Pods-GitHubClient.debug.xcconfig"; sourceTree = "<group>"; };
+		2CB9B1BE6A6D212A8F8A60E7 /* Pods-GitHubClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubClientTests/Pods-GitHubClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		46B8E8781A251151002710F7 /* GitHubClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		46B8E87C1A251151002710F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46B8E87D1A251151002710F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		46B8E87F1A251151002710F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		46B8E8801A251151002710F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		46B8E8821A251151002710F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		46B8E8831A251151002710F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		46B8E8861A251151002710F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		46B8E8881A251151002710F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		46B8E88B1A251151002710F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		46B8E8911A251151002710F7 /* GitHubClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B8E8961A251151002710F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46B8E8971A251151002710F7 /* GitHubClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubClientTests.m; sourceTree = "<group>"; };
+		46B8E8A21A2511EE002710F7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46B8E8A31A2511EE002710F7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46B8E8A51A2511EE002710F7 /* ReposViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReposViewController.h; sourceTree = "<group>"; };
+		46B8E8A61A2511EE002710F7 /* ReposViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReposViewController.m; sourceTree = "<group>"; };
+		46B8E8A71A2511EE002710F7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		46B8E8A81A2511EE002710F7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		46B8E8AC1A2511EE002710F7 /* GHRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHRepo.h; sourceTree = "<group>"; };
+		46B8E8AD1A2511EE002710F7 /* GHRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHRepo.m; sourceTree = "<group>"; };
+		46B8E8AE1A2511EE002710F7 /* GHUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUser.h; sourceTree = "<group>"; };
+		46B8E8AF1A2511EE002710F7 /* GHUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUser.m; sourceTree = "<group>"; };
+		46B8E8B11A2511EE002710F7 /* GitHubAuthConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubAuthConfig.h; sourceTree = "<group>"; };
+		46B8E8B21A2511EE002710F7 /* GitHubAuthConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubAuthConfig.m; sourceTree = "<group>"; };
+		46B8E8B31A2511EE002710F7 /* GitHubOAuthFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubOAuthFlow.h; sourceTree = "<group>"; };
+		46B8E8B41A2511EE002710F7 /* GitHubOAuthFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubOAuthFlow.m; sourceTree = "<group>"; };
+		46B8E8B51A2511EE002710F7 /* GitHubService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubService.h; sourceTree = "<group>"; };
+		46B8E8B61A2511EE002710F7 /* GitHubService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubService.m; sourceTree = "<group>"; };
+		46B8E8B71A2511EE002710F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46B8E8B81A2511EE002710F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B8E8BB1A2511EE002710F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		46B8E8BC1A2511EE002710F7 /* ReposViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReposViewController.xib; sourceTree = "<group>"; };
+		46B8E8BD1A2511EE002710F7 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		46B8E8D51A2515BC002710F7 /* RepoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepoTableViewCell.xib; sourceTree = "<group>"; };
+		46B8E8D71A252A1D002710F7 /* RequestUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestUtil.h; sourceTree = "<group>"; };
+		46B8E8D81A252A1D002710F7 /* RequestUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestUtil.m; sourceTree = "<group>"; };
+		46B8E8DD1A25DF52002710F7 /* RepoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepoViewController.xib; sourceTree = "<group>"; };
+		46B8E8DF1A25DF68002710F7 /* RepoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepoViewController.h; sourceTree = "<group>"; };
+		46B8E8E01A25DF68002710F7 /* RepoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepoViewController.m; sourceTree = "<group>"; };
+		46D8F1CB1A261F89002867D2 /* GitHubServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubServiceTests.m; sourceTree = "<group>"; };
+		46D8F1CD1A262BD3002867D2 /* token_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = token_response.json; sourceTree = "<group>"; };
+		46D8F1D01A263330002867D2 /* ProfileHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileHeaderView.h; sourceTree = "<group>"; };
+		46D8F1D11A263330002867D2 /* ProfileHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileHeaderView.m; sourceTree = "<group>"; };
+		46D8F1D21A263330002867D2 /* RepoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepoTableViewCell.h; sourceTree = "<group>"; };
+		46D8F1D31A263330002867D2 /* RepoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepoTableViewCell.m; sourceTree = "<group>"; };
+		6B308DC93F58CF5AA899C28E /* Pods-GitHubClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubClient/Pods-GitHubClient.release.xcconfig"; sourceTree = "<group>"; };
+		6F3B85D5F69E6F4DB69B616C /* libPods-GitHubClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitHubClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BB200E9B682DA0463C4D6E /* libPods-GitHubClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitHubClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FAB66AEDE0964170ACFA5C /* Pods-GitHubClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubClientTests/Pods-GitHubClientTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B6004A3218A443CC923E7E /* libPods-GitHubClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54DAA0B9D68BEA9267EDC1EE /* libPods-GitHubClientTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +114,8 @@
 				46B8E87A1A251151002710F7 /* GitHubClient */,
 				46B8E8941A251151002710F7 /* GitHubClientTests */,
 				46B8E8791A251151002710F7 /* Products */,
+				595E6A4C1D3E31CB45706135 /* Pods */,
+				CE97042CE2B8CAFC828C8C25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +131,8 @@
 		46B8E87A1A251151002710F7 /* GitHubClient */ = {
 			isa = PBXGroup;
 			children = (
-				46B8E87F1A251151002710F7 /* AppDelegate.h */,
-				46B8E8801A251151002710F7 /* AppDelegate.m */,
-				46B8E8821A251151002710F7 /* ViewController.h */,
-				46B8E8831A251151002710F7 /* ViewController.m */,
-				46B8E8851A251151002710F7 /* Main.storyboard */,
-				46B8E8881A251151002710F7 /* Images.xcassets */,
-				46B8E88A1A251151002710F7 /* LaunchScreen.xib */,
+				46B8E8A11A2511EE002710F7 /* Classes */,
+				46B8E8B91A2511EE002710F7 /* Views */,
 				46B8E87B1A251151002710F7 /* Supporting Files */,
 			);
 			path = GitHubClient;
@@ -96,7 +141,8 @@
 		46B8E87B1A251151002710F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				46B8E87C1A251151002710F7 /* Info.plist */,
+				46B8E8B81A2511EE002710F7 /* Info.plist */,
+				46B8E8B71A2511EE002710F7 /* Images.xcassets */,
 				46B8E87D1A251151002710F7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -105,7 +151,7 @@
 		46B8E8941A251151002710F7 /* GitHubClientTests */ = {
 			isa = PBXGroup;
 			children = (
-				46B8E8971A251151002710F7 /* GitHubClientTests.m */,
+				46D8F1CB1A261F89002867D2 /* GitHubServiceTests.m */,
 				46B8E8951A251151002710F7 /* Supporting Files */,
 			);
 			path = GitHubClientTests;
@@ -115,8 +161,104 @@
 			isa = PBXGroup;
 			children = (
 				46B8E8961A251151002710F7 /* Info.plist */,
+				46D8F1CD1A262BD3002867D2 /* token_response.json */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46B8E8A11A2511EE002710F7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				46D8F1CF1A263330002867D2 /* Views */,
+				46B8E8A41A2511EE002710F7 /* Controller */,
+				46B8E8AB1A2511EE002710F7 /* Model */,
+				46B8E8B01A2511EE002710F7 /* Service */,
+				46B8E8A21A2511EE002710F7 /* AppDelegate.h */,
+				46B8E8A31A2511EE002710F7 /* AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		46B8E8A41A2511EE002710F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46B8E8A51A2511EE002710F7 /* ReposViewController.h */,
+				46B8E8A61A2511EE002710F7 /* ReposViewController.m */,
+				46B8E8A71A2511EE002710F7 /* LoginViewController.h */,
+				46B8E8A81A2511EE002710F7 /* LoginViewController.m */,
+				46B8E8DF1A25DF68002710F7 /* RepoViewController.h */,
+				46B8E8E01A25DF68002710F7 /* RepoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		46B8E8AB1A2511EE002710F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46B8E8AC1A2511EE002710F7 /* GHRepo.h */,
+				46B8E8AD1A2511EE002710F7 /* GHRepo.m */,
+				46B8E8AE1A2511EE002710F7 /* GHUser.h */,
+				46B8E8AF1A2511EE002710F7 /* GHUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46B8E8B01A2511EE002710F7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				46B8E8B11A2511EE002710F7 /* GitHubAuthConfig.h */,
+				46B8E8B21A2511EE002710F7 /* GitHubAuthConfig.m */,
+				46B8E8B31A2511EE002710F7 /* GitHubOAuthFlow.h */,
+				46B8E8B41A2511EE002710F7 /* GitHubOAuthFlow.m */,
+				46B8E8B51A2511EE002710F7 /* GitHubService.h */,
+				46B8E8B61A2511EE002710F7 /* GitHubService.m */,
+				46B8E8D71A252A1D002710F7 /* RequestUtil.h */,
+				46B8E8D81A252A1D002710F7 /* RequestUtil.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		46B8E8B91A2511EE002710F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46B8E8D51A2515BC002710F7 /* RepoTableViewCell.xib */,
+				46B8E8BA1A2511EE002710F7 /* LaunchScreen.xib */,
+				46B8E8BC1A2511EE002710F7 /* ReposViewController.xib */,
+				46B8E8BD1A2511EE002710F7 /* LoginViewController.xib */,
+				46B8E8DD1A25DF52002710F7 /* RepoViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46D8F1CF1A263330002867D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46D8F1D01A263330002867D2 /* ProfileHeaderView.h */,
+				46D8F1D11A263330002867D2 /* ProfileHeaderView.m */,
+				46D8F1D21A263330002867D2 /* RepoTableViewCell.h */,
+				46D8F1D31A263330002867D2 /* RepoTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		595E6A4C1D3E31CB45706135 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11D048CC1A0D0AF356F742C1 /* Pods-GitHubClient.debug.xcconfig */,
+				6B308DC93F58CF5AA899C28E /* Pods-GitHubClient.release.xcconfig */,
+				93FAB66AEDE0964170ACFA5C /* Pods-GitHubClientTests.debug.xcconfig */,
+				2CB9B1BE6A6D212A8F8A60E7 /* Pods-GitHubClientTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE97042CE2B8CAFC828C8C25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B85D5F69E6F4DB69B616C /* libPods-GitHubClient.a */,
+				89BB200E9B682DA0463C4D6E /* libPods-GitHubClientTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46B8E89B1A251151002710F7 /* Build configuration list for PBXNativeTarget "GitHubClient" */;
 			buildPhases = (
+				87E1DC918160D9ECAE5091D1 /* Check Pods Manifest.lock */,
 				46B8E8741A251151002710F7 /* Sources */,
 				46B8E8751A251151002710F7 /* Frameworks */,
 				46B8E8761A251151002710F7 /* Resources */,
+				74DFA21E29DD35A2B58E6192 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46B8E89E1A251151002710F7 /* Build configuration list for PBXNativeTarget "GitHubClientTests" */;
 			buildPhases = (
+				176CA95ACA5B8F62D01E3E29 /* Check Pods Manifest.lock */,
 				46B8E88D1A251151002710F7 /* Sources */,
 				46B8E88E1A251151002710F7 /* Frameworks */,
 				46B8E88F1A251151002710F7 /* Resources */,
+				71B1FC380D5DF8C48A929020 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +345,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46B8E8871A251151002710F7 /* Main.storyboard in Resources */,
-				46B8E88C1A251151002710F7 /* LaunchScreen.xib in Resources */,
-				46B8E8891A251151002710F7 /* Images.xcassets in Resources */,
+				46B8E8D61A2515BC002710F7 /* RepoTableViewCell.xib in Resources */,
+				46B8E8CC1A2511EE002710F7 /* LoginViewController.xib in Resources */,
+				46B8E8DE1A25DF52002710F7 /* RepoViewController.xib in Resources */,
+				46B8E8CA1A2511EE002710F7 /* LaunchScreen.xib in Resources */,
+				46B8E8C81A2511EE002710F7 /* Images.xcassets in Resources */,
+				46B8E8CB1A2511EE002710F7 /* ReposViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,19 +358,93 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D8F1CE1A262BD3002867D2 /* token_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		176CA95ACA5B8F62D01E3E29 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		71B1FC380D5DF8C48A929020 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHubClientTests/Pods-GitHubClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74DFA21E29DD35A2B58E6192 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHubClient/Pods-GitHubClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87E1DC918160D9ECAE5091D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46B8E8741A251151002710F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46B8E8841A251151002710F7 /* ViewController.m in Sources */,
-				46B8E8811A251151002710F7 /* AppDelegate.m in Sources */,
+				46B8E8C71A2511EE002710F7 /* GitHubService.m in Sources */,
+				46B8E8C51A2511EE002710F7 /* GitHubAuthConfig.m in Sources */,
+				46B8E8C31A2511EE002710F7 /* GHRepo.m in Sources */,
+				46B8E8C11A2511EE002710F7 /* LoginViewController.m in Sources */,
+				46D8F1D51A263330002867D2 /* RepoTableViewCell.m in Sources */,
+				46B8E8C61A2511EE002710F7 /* GitHubOAuthFlow.m in Sources */,
+				46B8E8BF1A2511EE002710F7 /* AppDelegate.m in Sources */,
+				46B8E8D91A252A1D002710F7 /* RequestUtil.m in Sources */,
 				46B8E87E1A251151002710F7 /* main.m in Sources */,
+				46D8F1D41A263330002867D2 /* ProfileHeaderView.m in Sources */,
+				46B8E8C01A2511EE002710F7 /* ReposViewController.m in Sources */,
+				46B8E8C41A2511EE002710F7 /* GHUser.m in Sources */,
+				46B8E8E11A25DF68002710F7 /* RepoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46B8E8981A251151002710F7 /* GitHubClientTests.m in Sources */,
+				46D8F1CC1A261F89002867D2 /* GitHubServiceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,18 +467,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46B8E8851A251151002710F7 /* Main.storyboard */ = {
+		46B8E8BA1A2511EE002710F7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46B8E8861A251151002710F7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		46B8E88A1A251151002710F7 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46B8E88B1A251151002710F7 /* Base */,
+				46B8E8BB1A2511EE002710F7 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -343,26 +558,33 @@
 		};
 		46B8E89C1A251151002710F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D048CC1A0D0AF356F742C1 /* Pods-GitHubClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = GitHubClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		46B8E89D1A251151002710F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B308DC93F58CF5AA899C28E /* Pods-GitHubClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = GitHubClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		46B8E89F1A251151002710F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93FAB66AEDE0964170ACFA5C /* Pods-GitHubClientTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -382,6 +604,7 @@
 		};
 		46B8E8A01A251151002710F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB9B1BE6A6D212A8F8A60E7 /* Pods-GitHubClientTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -414,6 +637,7 @@
 				46B8E89D1A251151002710F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46B8E89E1A251151002710F7 /* Build configuration list for PBXNativeTarget "GitHubClientTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +646,7 @@
 				46B8E8A01A251151002710F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

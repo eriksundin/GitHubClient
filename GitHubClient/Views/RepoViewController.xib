@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RepoViewController">
+            <connections>
+                <outlet property="descriptionLabel" destination="nYa-ir-h8i" id="YIc-m6-OPv"/>
+                <outlet property="repoImageView" destination="fMx-0B-Z32" id="wez-BS-suC"/>
+                <outlet property="repoNameLabel" destination="ET3-Bz-8yY" id="sab-Qs-no9"/>
+                <outlet property="repoURLButton" destination="ItB-4X-c2l" id="xmo-o1-JRM"/>
+                <outlet property="starsLabel" destination="M3v-Hn-bJp" id="qAl-EW-fJI"/>
+                <outlet property="view" destination="iN0-l3-epB" id="mqh-QU-CNa"/>
+                <outlet property="watchersLabel" destination="pav-Ir-jxT" id="6PB-UB-rg2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87u-WM-BZE">
+                    <rect key="frame" x="0.0" y="64" width="600" height="74"/>
+                    <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="74" id="Bda-o4-DKh"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Repo" translatesAutoresizingMaskIntoConstraints="NO" id="fMx-0B-Z32">
+                    <rect key="frame" x="8" y="85" width="42" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="scK-dk-JZZ"/>
+                        <constraint firstAttribute="height" constant="42" id="tic-di-HRN"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="myusername/my-repo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ET3-Bz-8yY">
+                    <rect key="frame" x="58" y="95" width="534" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="33p-gy-9D4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYa-ir-h8i">
+                    <rect key="frame" x="8" y="195" width="584" height="64.5"/>
+                    <string key="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate </string>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Star" translatesAutoresizingMaskIntoConstraints="NO" id="Kqe-1O-OGm">
+                    <rect key="frame" x="11" y="146" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="19y-oq-FvU"/>
+                        <constraint firstAttribute="width" constant="22" id="dtO-Wi-GKi"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3v-Hn-bJp">
+                    <rect key="frame" x="8" y="166" width="28" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="28" id="F6R-Lm-vLh"/>
+                        <constraint firstAttribute="height" constant="21" id="cw9-2x-rml"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Eye" translatesAutoresizingMaskIntoConstraints="NO" id="NRb-4C-1fc">
+                    <rect key="frame" x="47" y="146" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="XX2-82-Y1p"/>
+                        <constraint firstAttribute="height" constant="22" id="syg-zG-Gzq"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pav-Ir-jxT">
+                    <rect key="frame" x="44" y="166" width="28" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="28" id="2Hb-gX-Mdh"/>
+                        <constraint firstAttribute="height" constant="21" id="Jo5-n0-qQe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ItB-4X-c2l">
+                    <rect key="frame" x="113" y="143" width="479" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Mg0-ak-nBU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                    <state key="normal" title="View On GitHub">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="repoURLButtonPressed:" destination="-1" eventType="touchUpInside" id="N70-cE-ouW"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home" translatesAutoresizingMaskIntoConstraints="NO" id="IwH-Fs-jvn">
+                    <rect key="frame" x="83" y="146" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="Sra-Ec-cYT"/>
+                        <constraint firstAttribute="height" constant="22" id="c5L-nd-83t"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="87u-WM-BZE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="4OV-ko-7uj"/>
+                <constraint firstItem="M3v-Hn-bJp" firstAttribute="top" secondItem="87u-WM-BZE" secondAttribute="bottom" constant="28" id="4h1-AR-28w"/>
+                <constraint firstItem="87u-WM-BZE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7kI-ki-N2V"/>
+                <constraint firstItem="nYa-ir-h8i" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="8CE-6A-8f9"/>
+                <constraint firstItem="ET3-Bz-8yY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="95" id="8fT-ve-JBT"/>
+                <constraint firstAttribute="trailing" secondItem="nYa-ir-h8i" secondAttribute="trailing" constant="8" id="FPg-hF-TrR"/>
+                <constraint firstItem="IwH-Fs-jvn" firstAttribute="leading" secondItem="NRb-4C-1fc" secondAttribute="trailing" constant="14" id="HVL-y7-AQB"/>
+                <constraint firstItem="Kqe-1O-OGm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="11" id="L9M-9F-evs"/>
+                <constraint firstItem="ItB-4X-c2l" firstAttribute="leading" secondItem="IwH-Fs-jvn" secondAttribute="trailing" constant="8" id="NeI-aj-Pfu"/>
+                <constraint firstItem="pav-Ir-jxT" firstAttribute="leading" secondItem="M3v-Hn-bJp" secondAttribute="trailing" constant="8" id="VHO-CH-Ma6"/>
+                <constraint firstAttribute="trailing" secondItem="87u-WM-BZE" secondAttribute="trailing" id="Vvo-2Z-iHz"/>
+                <constraint firstItem="nYa-ir-h8i" firstAttribute="top" secondItem="pav-Ir-jxT" secondAttribute="bottom" constant="8" id="WVB-SA-d29"/>
+                <constraint firstItem="NRb-4C-1fc" firstAttribute="top" secondItem="87u-WM-BZE" secondAttribute="bottom" constant="8" id="Wr7-90-FjS"/>
+                <constraint firstItem="ItB-4X-c2l" firstAttribute="top" secondItem="87u-WM-BZE" secondAttribute="bottom" constant="5" id="bEe-sL-zd7"/>
+                <constraint firstAttribute="centerX" secondItem="nYa-ir-h8i" secondAttribute="centerX" id="e3w-zj-yQV"/>
+                <constraint firstItem="pav-Ir-jxT" firstAttribute="top" secondItem="87u-WM-BZE" secondAttribute="bottom" constant="28" id="idO-NX-fc5"/>
+                <constraint firstItem="NRb-4C-1fc" firstAttribute="leading" secondItem="Kqe-1O-OGm" secondAttribute="trailing" constant="14" id="iyf-Pw-Tn1"/>
+                <constraint firstItem="Kqe-1O-OGm" firstAttribute="top" secondItem="87u-WM-BZE" secondAttribute="bottom" constant="8" id="lb0-Ap-0WT"/>
+                <constraint firstItem="fMx-0B-Z32" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="85" id="oNZ-Zu-Zgk"/>
+                <constraint firstItem="ET3-Bz-8yY" firstAttribute="leading" secondItem="fMx-0B-Z32" secondAttribute="trailing" constant="8" id="qJW-NR-p4V"/>
+                <constraint firstItem="fMx-0B-Z32" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="rfI-46-Xbz"/>
+                <constraint firstAttribute="trailing" secondItem="ET3-Bz-8yY" secondAttribute="trailing" constant="8" id="s90-Vy-9Jx"/>
+                <constraint firstItem="IwH-Fs-jvn" firstAttribute="top" secondItem="87u-WM-BZE" secondAttribute="bottom" constant="8" id="t5i-ow-3XL"/>
+                <constraint firstAttribute="trailing" secondItem="ItB-4X-c2l" secondAttribute="trailing" constant="8" id="tOh-A8-DaX"/>
+                <constraint firstItem="M3v-Hn-bJp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="wPF-6r-4Lc"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Eye" width="50" height="50"/>
+        <image name="Home" width="50" height="50"/>
+        <image name="Repo" width="50" height="50"/>
+        <image name="Star" width="50" height="50"/>
+    </resources>
+</document>
